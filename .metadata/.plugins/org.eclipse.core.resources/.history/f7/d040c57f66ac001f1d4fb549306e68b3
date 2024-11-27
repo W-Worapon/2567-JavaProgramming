@@ -1,0 +1,23 @@
+import java.util.*;
+public class JavaExample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		//รับและแสดงผลและรับข้อมูลชื่อสินค้า
+		System.out.print("Input product name: ");
+		String productName = input.nextLine();
+		//แสดงและรับข้อมูลจำนวนสินค้า
+		System.out.print("Input product unit: ");
+		int productUnit = input.nextInt();
+		System.out.print("Input price per unit: ");
+		float productPrice = input.nextFloat();
+		System.out.println(); //เว้น 1 บรรทัด
+		//คำนวณหาผลรวมของสินค้า
+		float totalPriceofProduct = productUnit * productPrice;
+		System.out.println("Total Price is "+totalPriceofProduct);
+		
+		input.close();
+	}
+
+}
