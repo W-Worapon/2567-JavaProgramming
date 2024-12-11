@@ -2,4 +2,5 @@ studentId:2413111085
 studentName:Worapon Piboonsukying
 Topic:Control Statements and Confirm Dialog box
 Date:12/4/2024
-Topic: (next)
+Topic: String Method
+Date:12/11/2024
